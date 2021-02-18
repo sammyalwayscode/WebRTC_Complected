@@ -1,0 +1,49 @@
+/* .video{
+  height: 500px;
+  width: 500px;
+  /* background-color: darkcyan;
+} */
+
+.TextArea{
+  display: block;
+}
+
+.MasterDiv{
+  width: 100vw;
+  height: 100vh;
+  background-color: #123456;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px){
+  
+}
+
+.VideoDiv{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color:red ; */
+}
+
+
+@media screen and (max-width: 768px){
+  .VideoDiv{
+    flex-direction: column;
+  }
+}
+
+.ButtonDiv{
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: aqua; */
+}
